@@ -63,7 +63,11 @@
           {
             "group": "Firewall Bot",
             "icon": "block-brick",
-            "pages": ["products/firewall/overview"]
+            "pages": [
+              "products/firewall/overview",
+              "products/firewall/silent",
+              "products/firewall/premium"
+            ]
           }
         ]
       },
