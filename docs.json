@@ -1,21 +1,21 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "AJ Services Help",
   "colors": {
-    "primary": "#000000",
-    "light": "#000000",
-    "dark": "#000000"
+    "primary": "#71797E",
+    "light": "#71797E",
+    "dark": "#71797E"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Help Center",
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
+            "pages": ["index", "services", "development"]
           },
           {
             "group": "Customization",
@@ -41,20 +41,29 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Legal",
         "groups": [
           {
-            "group": "API documentation",
-            "pages": ["api-reference/introduction"]
+            "group": "Agreeements",
+            "pages": ["legal/spa", "legal/sla"]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Notices",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "legal/privacy",
+              "legal/subprocessors",
+              "legal/terms",
+              "legal/usage"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "information",
+        "groups": [
+          {
+            "group": "Premium",
+            "pages": ["info/donorperks"]
           }
         ]
       }
@@ -62,18 +71,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "AWFixer and Friends",
+          "href": "https://awfixer.com",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "href": "https://discord.awfixer.me",
+          "icon": "discord"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://awfixer.blog",
           "icon": "newspaper"
         }
       ]
@@ -87,13 +96,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.awfixer.me"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://my.awfixer.me"
     }
   },
   "contextual": {
@@ -110,9 +119,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/awfixer",
+      "github": "https://github.com/awfixers-stuff",
+      "discord": "https://discord.awfixer.me"
     }
   }
 }
