@@ -15,28 +15,29 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "services", "development"]
+            "pages": ["index", "development"]
+          }
+        ]
+      },
+      {
+        "tab": "Services",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": ["services/services"]
           },
           {
-            "group": "Customization",
-            "pages": ["essentials/settings", "essentials/navigation"]
-          },
-          {
-            "group": "Writing content",
+            "group": "Standard",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "services/idm",
+              "services/proxy",
+              "services/tor",
+              "services/vpn"
             ]
           },
           {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
+            "group": "Premium",
+            "pages": ["services/premium/premium"]
           }
         ]
       },
@@ -122,6 +123,21 @@
       "x": "https://x.com/awfixer",
       "github": "https://github.com/awfixers-stuff",
       "discord": "https://discord.awfixer.me"
-    }
+    },
+    "links": [
+      {
+        "header": "Socials",
+        "items": [
+          {
+            "label": "x/twitter",
+            "href": "https://x.com/awfixer"
+          },
+          {
+            "label": "Reddit",
+            "href": "https://reddit.com/r/awfixer"
+          }
+        ]
+      }
+    ]
   }
 }
