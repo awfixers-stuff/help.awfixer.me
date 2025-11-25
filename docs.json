@@ -46,11 +46,21 @@
         ]
       },
       {
+        "tab": "Products",
+        "groups": [
+          {
+            "group": "Bots",
+            "icon": "discord",
+            "pages": ["products/firewall", "products/support-manager"]
+          }
+        ]
+      },
+      {
         "tab": "Legal",
         "groups": [
           {
             "group": "Agreeements",
-            "pages": ["legal/spa", "legal/sla"]
+            "pages": ["legal/spa", "legal/sla", "legal/cla"]
           },
           {
             "group": "Notices",
@@ -94,6 +104,11 @@
           "anchor": "Blog",
           "href": "https://awfixer.blog",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "Github",
+          "href": "https://github.com/awfixer-stuff",
+          "icon": "github"
         }
       ]
     }
