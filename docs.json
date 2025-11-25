@@ -1,17 +1,24 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "palm",
   "name": "AJ Services Help",
   "banner": {
     "content": "be sure to join the [Discord](https://discord.awfixer.me) for the latest updates",
     "dismissible": true
   },
   "colors": {
-    "primary": "#3C3F4A",
-    "light": "#3C3F4A",
-    "dark": "#3C3F4A"
+    "primary": "#ffffff",
+    "light": "#d3d3d3",
+    "dark": "#000000"
   },
   "favicon": "/favicon.png",
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "I can't be found...",
+      "description": "whatever happened to this __page__?"
+    }
+  },
   "navigation": {
     "tabs": [
       {
@@ -52,6 +59,11 @@
             "group": "Bots",
             "icon": "discord",
             "pages": ["products/firewall", "products/support-manager"]
+          },
+          {
+            "group": "Firewall Bot",
+            "icon": "block-brick",
+            "pages": ["products/firewall/overview"]
           }
         ]
       },
@@ -61,8 +73,8 @@
           {
             "group": "Agreeements",
             "pages": [
-              "legal/spa", 
-              "legal/sla", 
+              "legal/spa",
+              "legal/sla",
               "legal/cla",
               "legal/ecla",
               "legal/eula"
@@ -204,6 +216,10 @@
           {
             "label": "Support Manager Bot",
             "href": "https://help.awfixer.me/products/support-manager"
+          },
+          {
+            "label": "AWFixer and Friends",
+            "href": "https://help.awfixer.com/product-updates"
           }
         ]
       },
