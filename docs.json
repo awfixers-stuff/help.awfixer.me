@@ -69,7 +69,8 @@
               "legal/subprocessors",
               "legal/terms",
               "legal/usage",
-              "legal/refund"
+              "legal/refund",
+              "legal/disclosure"
             ]
           }
         ]
@@ -188,15 +189,15 @@
         ]
       },
       {
-        "header": "Leadership",
+        "header": "Products",
         "items": [
           {
-            "label": "AWFixer",
-            "href": "https://awfixer.me"
+            "label": "Firewall Bot",
+            "href": "https://help.awfixer.me/products/firewall"
           },
           {
-            "label": "jinx",
-            "href": "https://imjinx.lol"
+            "label": "Support Manager Bot",
+            "href": "https://help.awfixer.me/products/support-manager"
           }
         ]
       },
@@ -210,6 +211,14 @@
           {
             "label": "TOR",
             "href": "https://help.awfixer.me/services/tor"
+          },
+          {
+            "label": "IDM",
+            "href": "http://help.awfixer.me/services/idm"
+          },
+          {
+            "label": "Proxy",
+            "href": "https://help.awfixer.me/servics/proxy"
           }
         ]
       }
