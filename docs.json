@@ -2,10 +2,14 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "AJ Services Help",
+  "banner": {
+    "content": "be sure to join the [Discord](https://discord.awfixer.me) for the latest updates",
+    "dismissible": true
+  },
   "colors": {
-    "primary": "#71797E",
-    "light": "#71797E",
-    "dark": "#71797E"
+    "primary": "#3C3F4A",
+    "light": "#3C3F4A",
+    "dark": "#3C3F4A"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -54,7 +58,8 @@
               "legal/privacy",
               "legal/subprocessors",
               "legal/terms",
-              "legal/usage"
+              "legal/usage",
+              "legal/refund"
             ]
           }
         ]
@@ -135,6 +140,44 @@
           {
             "label": "Reddit",
             "href": "https://reddit.com/r/awfixer"
+          },
+          {
+            "label": "Discord",
+            "href": "https://discord.awfixer.me"
+          },
+          {
+            "label": "Patreon",
+            "href": "https://patreon.com/awfixer"
+          }
+        ]
+      },
+      {
+        "header": "Legal",
+        "items": [
+          {
+            "label": "Privacy",
+            "href": "https://help.awfixer.me/legal/privacy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "https://help.awfixer.me/legal/terms"
+          },
+          {
+            "label": "Terms of Use",
+            "href": "https://help.awfixer.me/legal/usage"
+          }
+        ]
+      },
+      {
+        "header": "Leadership",
+        "items": [
+          {
+            "label": "AWFixer",
+            "href": "https://awfixer.me"
+          },
+          {
+            "label": "jinx",
+            "href": "https://imjinx.lol"
           }
         ]
       }
