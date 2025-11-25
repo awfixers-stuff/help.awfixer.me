@@ -1,0 +1,25 @@
+{
+  "name": "help.awfixer.me",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "mintlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "mintlify": "^4.2.213"
+  },
+  "engines": {
+    "node": "^22",
+    "pnpm": "^10"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "puppeteer",
+      "sharp"
+    ]
+  }
+}
