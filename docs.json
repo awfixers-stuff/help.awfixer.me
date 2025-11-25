@@ -60,7 +60,13 @@
         "groups": [
           {
             "group": "Agreeements",
-            "pages": ["legal/spa", "legal/sla", "legal/cla"]
+            "pages": [
+              "legal/spa", 
+              "legal/sla", 
+              "legal/cla",
+              "legal/ecla",
+              "legal/eula"
+            ]
           },
           {
             "group": "Notices",
@@ -70,8 +76,7 @@
               "legal/terms",
               "legal/usage",
               "legal/refund",
-              "legal/disclosure",
-              "legal/eula"
+              "legal/disclosure"
             ]
           }
         ]
