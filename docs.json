@@ -19,7 +19,7 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "development"]
+            "pages": ["index", "development", "dashboard"]
           }
         ]
       },
@@ -70,6 +70,10 @@
           {
             "group": "Premium",
             "pages": ["info/donorperks"]
+          },
+          {
+            "group": "Community",
+            "pages": ["info/community", "info/level", "info/helper"]
           }
         ]
       }
@@ -108,7 +112,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://my.awfixer.me"
+      "href": "https://help.awfixer.me/dashboard"
     }
   },
   "contextual": {
