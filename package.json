@@ -13,7 +13,7 @@
     "mintlify": "^4.2.213"
   },
   "engines": {
-    "node": "^22",
+    "node": "^24.0.0",
     "pnpm": "^10"
   },
   "pnpm": {
