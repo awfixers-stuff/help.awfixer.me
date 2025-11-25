@@ -180,6 +180,19 @@
             "href": "https://imjinx.lol"
           }
         ]
+      },
+      {
+        "header": "Services",
+        "items": [
+          {
+            "label": "VPN",
+            "href": "https://help.awfixer.me/services/vpn"
+          },
+          {
+            "label": "TOR",
+            "href": "https://help.awfixer.me/services/tor"
+          }
+        ]
       }
     ]
   }
