@@ -3,19 +3,19 @@
   "theme": "mint",
   "name": "AJ Services Help",
   "colors": {
-    "primary": "#000000",
-    "light": "#000000",
-    "dark": "#000000"
+    "primary": "#71797E",
+    "light": "#71797E",
+    "dark": "#71797E"
   },
   "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Help Center",
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["index", "quickstart", "development"]
+            "pages": ["index", "services", "development"]
           },
           {
             "group": "Customization",
@@ -41,19 +41,19 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Legal",
         "groups": [
           {
-            "group": "API documentation",
-            "pages": ["api-reference/introduction"]
+            "group": "Agreeements",
+            "pages": ["legal/spa", "legal/sla"]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Notices",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "legal/privacy",
+              "legal/subprocessors",
+              "legal/terms",
+              "legal/usage"
             ]
           }
         ]
