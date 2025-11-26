@@ -32,7 +32,8 @@
                 "pages": [
                   "en/main/index",
                   "en/main/development",
-                  "en/main/dashboard"
+                  "en/main/dashboard",
+                  "en/main/x402"
                 ]
               }
             ]
