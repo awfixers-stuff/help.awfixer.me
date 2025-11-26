@@ -147,6 +147,133 @@
             }
           ]
         }
+      },
+      {
+        "language": "es",
+        "tabs": [
+          {
+            "tab": "Help Center",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "es/main/index",
+                  "es/main/development",
+                  "es/main/dashboard"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Services",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": ["es/services/services"]
+              },
+              {
+                "group": "Standard",
+                "pages": [
+                  "es/services/idm",
+                  "es/services/proxy",
+                  "es/services/tor",
+                  "es/services/vpn"
+                ]
+              },
+              {
+                "group": "Premium",
+                "pages": ["es/services/premium/premium"]
+              }
+            ]
+          },
+          {
+            "tab": "Products",
+            "groups": [
+              {
+                "group": "Bots",
+                "icon": "discord",
+                "pages": ["es/products/firewall", "es/products/support-manager"]
+              },
+              {
+                "group": "Firewall Bot",
+                "icon": "block-brick",
+                "pages": [
+                  "es/products/firewall/overview",
+                  "es/products/firewall/silent",
+                  "es/products/firewall/premium"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Legal",
+            "groups": [
+              {
+                "group": "Agreeements",
+                "pages": [
+                  "es/legal/spa",
+                  "es/legal/sla",
+                  "es/legal/cla",
+                  "es/legal/ecla",
+                  "es/legal/eula"
+                ]
+              },
+              {
+                "group": "Notices",
+                "pages": [
+                  "es/legal/privacy",
+                  "es/legal/subprocessors",
+                  "es/legal/terms",
+                  "es/legal/usage",
+                  "es/legal/refund",
+                  "es/legal/disclosure",
+                  "es/legal/data"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "information",
+            "groups": [
+              {
+                "group": "Premium",
+                "pages": ["es/info/donorperks"]
+              },
+              {
+                "group": "Community",
+                "pages": [
+                  "es/info/community",
+                  "es/info/level",
+                  "es/info/helper"
+                ]
+              }
+            ]
+          }
+        ],
+        "global": {
+          "anchors": [
+            {
+              "anchor": "AWFixer and Friends",
+              "href": "https://awfixer.com",
+              "icon": "book-open-cover"
+            },
+            {
+              "anchor": "Community",
+              "href": "https://discord.awfixer.me",
+              "icon": "discord"
+            },
+            {
+              "anchor": "Blog",
+              "href": "https://awfixer.blog",
+              "icon": "newspaper"
+            },
+            {
+              "anchor": "Github",
+              "href": "https://github.com/awfixer-stuff",
+              "icon": "github"
+            }
+          ]
+        }
       }
     ]
   },
