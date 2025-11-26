@@ -20,122 +20,135 @@
     }
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Help Center",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Getting started",
-            "pages": ["index", "development", "dashboard"]
-          }
-        ]
-      },
-      {
-        "tab": "Services",
-        "groups": [
-          {
-            "group": "Overview",
-            "pages": ["services/services"]
-          },
-          {
-            "group": "Standard",
-            "pages": [
-              "services/idm",
-              "services/proxy",
-              "services/tor",
-              "services/vpn"
+            "tab": "Help Center",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "en/main/index",
+                  "en/main/development",
+                  "en/main/dashboard"
+                ]
+              }
             ]
           },
           {
-            "group": "Premium",
-            "pages": ["services/premium/premium"]
-          }
-        ]
-      },
-      {
-        "tab": "Products",
-        "groups": [
-          {
-            "group": "Bots",
-            "icon": "discord",
-            "pages": ["products/firewall", "products/support-manager"]
-          },
-          {
-            "group": "Firewall Bot",
-            "icon": "block-brick",
-            "pages": [
-              "products/firewall/overview",
-              "products/firewall/silent",
-              "products/firewall/premium"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Legal",
-        "groups": [
-          {
-            "group": "Agreeements",
-            "pages": [
-              "legal/spa",
-              "legal/sla",
-              "legal/cla",
-              "legal/ecla",
-              "legal/eula"
+            "tab": "Services",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": ["en/services/services"]
+              },
+              {
+                "group": "Standard",
+                "pages": [
+                  "en/services/idm",
+                  "en/services/proxy",
+                  "en/services/tor",
+                  "en/services/vpn"
+                ]
+              },
+              {
+                "group": "Premium",
+                "pages": ["en/services/premium/premium"]
+              }
             ]
           },
           {
-            "group": "Notices",
-            "pages": [
-              "legal/privacy",
-              "legal/subprocessors",
-              "legal/terms",
-              "legal/usage",
-              "legal/refund",
-              "legal/disclosure",
-              "legal/data"
+            "tab": "Products",
+            "groups": [
+              {
+                "group": "Bots",
+                "icon": "discord",
+                "pages": ["en/products/firewall", "en/products/support-manager"]
+              },
+              {
+                "group": "Firewall Bot",
+                "icon": "block-brick",
+                "pages": [
+                  "en/products/firewall/overview",
+                  "en/products/firewall/silent",
+                  "en/products/firewall/premium"
+                ]
+              }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "information",
-        "groups": [
-          {
-            "group": "Premium",
-            "pages": ["info/donorperks"]
           },
           {
-            "group": "Community",
-            "pages": ["info/community", "info/level", "info/helper"]
+            "tab": "Legal",
+            "groups": [
+              {
+                "group": "Agreeements",
+                "pages": [
+                  "en/legal/spa",
+                  "en/legal/sla",
+                  "en/legal/cla",
+                  "en/legal/ecla",
+                  "en/legal/eula"
+                ]
+              },
+              {
+                "group": "Notices",
+                "pages": [
+                  "en/legal/privacy",
+                  "en/legal/subprocessors",
+                  "en/legal/terms",
+                  "en/legal/usage",
+                  "en/legal/refund",
+                  "en/legal/disclosure",
+                  "en/legal/data"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "information",
+            "groups": [
+              {
+                "group": "Premium",
+                "pages": ["en/info/donorperks"]
+              },
+              {
+                "group": "Community",
+                "pages": [
+                  "en/info/community",
+                  "en/info/level",
+                  "en/info/helper"
+                ]
+              }
+            ]
           }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "AWFixer and Friends",
-          "href": "https://awfixer.com",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://discord.awfixer.me",
-          "icon": "discord"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://awfixer.blog",
-          "icon": "newspaper"
-        },
-        {
-          "anchor": "Github",
-          "href": "https://github.com/awfixer-stuff",
-          "icon": "github"
+        ],
+        "global": {
+          "anchors": [
+            {
+              "anchor": "AWFixer and Friends",
+              "href": "https://awfixer.com",
+              "icon": "book-open-cover"
+            },
+            {
+              "anchor": "Community",
+              "href": "https://discord.awfixer.me",
+              "icon": "discord"
+            },
+            {
+              "anchor": "Blog",
+              "href": "https://awfixer.blog",
+              "icon": "newspaper"
+            },
+            {
+              "anchor": "Github",
+              "href": "https://github.com/awfixer-stuff",
+              "icon": "github"
+            }
+          ]
         }
-      ]
-    }
+      }
+    ]
   },
   "logo": {
     "light": "https://github.com/awfixers-stuff.png",
